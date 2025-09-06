@@ -4,10 +4,10 @@ import pyttsx3
 import time
 import musicLibrary
 import requests
-import g4f  # free AI
+import g4f 
 
 recognizer = sr.Recognizer()
-newsapi = "b48768b7ef31464789eaca9837435fb9"
+newsapi = "enter your api"
 
 # ---------------- Speak Function ----------------
 def speak(text):
